@@ -1,0 +1,41 @@
+{
+  "bot": { "id": "65113f9e7669927f20fbbda7", "name": "asdf" },
+  "intent": {
+    "id": "6531f4534557e95cb807b204",
+    "name": "욕창 이미지",
+    "extra": { "reason": { "code": 0, "message": "OK" } }
+  },
+  "action": {
+    "id": "6531f54057744d2021673582",
+    "name": "욕창 분석",
+    "params": {
+      "sore_image": "{\"privacyAgreement\":\"Y\",\"imageQuantity\":\"1\",\"secureUrls\":\"List(http://secure.kakaocdn.net/dna/5ZDZv/K6bdrCEMZE/XXX/img_org.jpg?credential=Kq0eSbCrZgKIq51jh41Uf1jLsUh7VWcz&expires=1697774900&allow_ip=&allow_referer=&signature=Segi6mrEg2BfaVAWgzKjgS9m%2Bf4%3D)\",\"expire\":\"2023-10-20T04:08:20+0000\"}"
+    },
+    "detailParams": {
+      "sore_image": {
+        "groupName": "",
+        "origin": "List(http://secure.kakaocdn.net/dna/5ZDZv/K6bdrCEMZE/XXX/img_org.jpg?credential=Kq0eSbCrZgKIq51jh41Uf1jLsUh7VWcz&expires=1697774900&allow_ip=&allow_referer=&signature=Segi6mrEg2BfaVAWgzKjgS9m%2Bf4%3D)",
+        "value": "{\"privacyAgreement\":\"Y\",\"imageQuantity\":\"1\",\"secureUrls\":\"List(http://secure.kakaocdn.net/dna/5ZDZv/K6bdrCEMZE/XXX/img_org.jpg?credential=Kq0eSbCrZgKIq51jh41Uf1jLsUh7VWcz&expires=1697774900&allow_ip=&allow_referer=&signature=Segi6mrEg2BfaVAWgzKjgS9m%2Bf4%3D)\",\"expire\":\"2023-10-20T04:08:20+0000\"}"
+      }
+    },
+    "clientExtra": {}
+  },
+  "userRequest": {
+    "block": { "id": "6531f4534557e95cb807b204", "name": "욕창 이미지" },
+    "user": {
+      "id": "14ddc3ed90cac877be1e90b7318fc2edae7c0370c09eebaeaafa8e06781ff3e377",
+      "type": "botUserKey",
+      "properties": {
+        "botUserKey": "14ddc3ed90cac877be1e90b7318fc2edae7c0370c09eebaeaafa8e06781ff3e377",
+        "plusfriendUserKey": "IIqKBBNXGoXE",
+        "bot_user_key": "14ddc3ed90cac877be1e90b7318fc2edae7c0370c09eebaeaafa8e06781ff3e377",
+        "plusfriend_user_key": "IIqKBBNXGoXE"
+      }
+    },
+    "utterance": "욕창",
+    "params": { "surface": "Kakaotalk.plusfriend" },
+    "lang": "ko",
+    "timezone": "Asia/Seoul"
+  },
+  "contexts": []
+}
